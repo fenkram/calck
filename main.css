@@ -1,0 +1,93 @@
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.disease,
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.disease__title,
+.section__title {
+  margin-bottom: 30px;
+}
+
+.back {
+  position: absolute;
+  bottom: 20%;
+  margin: 0 auto;
+}
+
+.symptoms__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.symptoms__item {
+  margin-bottom: 20px;
+}
+
+.text {
+  color: green;
+}
+
+.redClass {
+  color: red;
+  font-size: 16px;
+}
+
+.section__result {
+  min-height: 20px;
+}
+
+.btn {
+  margin: 10px auto;
+}
+
+.section__min-max {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section__input {
+  margin-bottom: 10px;
+}
+
+.section__input:first-child {
+  margin-right: 10px;
+}
+
+.form-vowels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.resut-vowels {
+  color: coral;
+  font-size: 22px;
+  letter-spacing: 10px;
+}
+
+.form-vowels__input {
+  font-size: 16px;
+  min-width: 300px;
+  min-height: 100px;
+  margin: 10px 0;
+}
